@@ -1,9 +1,15 @@
 import React from 'react';
+import TodoForm from './TodoForm';
 
 const TodoApp = () => {
     return (
         <div>
-            TodoApp Page
+            <div>
+                <h1> TodoApp </h1>
+            </div>
+            <div>
+                <TodoForm />
+            </div>
         </div>
     )
 }
